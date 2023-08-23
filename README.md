@@ -21,6 +21,7 @@ Langchain provides an easy-to-use integration for processing and querying docume
 1. **Set Up Configuration**:
 
    - You must create a `config.py` file that defines the following:
+
      ```python
      OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY'
      PINECONE_API_KEY = 'YOUR_PINECONE_API_KEY'
@@ -30,6 +31,7 @@ Langchain provides an easy-to-use integration for processing and querying docume
 2. **Run `embbeding_doc.py`**:
 
    - This will load the provided PDF, split its content, generate embeddings, and save them to Pinecone.
+
      ```bash
      $ python embbeding_doc.py
      ```
